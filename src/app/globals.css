@@ -1,0 +1,36 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+    display: flex;
+    height: 50px;
+    background-color: lightgrey;
+    text-align: justify;
+    font-size: medium;
+    padding: 3px;
+    gap: 4px;
+    align-items: center;
+    
+}
+
+.sidebar {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: large;
+    background-color: rgba(51, 97, 92, 0.719);
+    padding: 8px;
+    gap: 4px;
+    width: 12rem;
+    height: 80vh;
+}
+
+.footer {
+    display: flex;
+    height: 50px;
+    background-color: lightgreen;
+    font-size: medium;
+    padding: 3px;
+    gap: 5px;
+}
